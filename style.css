@@ -1,0 +1,96 @@
+body{
+    background-color: #2b2d42;
+    font-family: 'Raleway', sans-serif;
+}
+
+#mainNavbar .navbar-brand{
+    color: #d90429;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #edf2f4;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #8d99ae; 
+}
+
+#section1 p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.navbar.scrolled{
+    background-color:#14213d;
+    transition: background-color 300ms;
+    
+}
+
+@media (max-width: 1200px){
+    #section1 p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    #section2 p{
+        font-size: 0.6rem;
+        line-height: 2rem;
+    }
+    
+}
+@media (max-width: 800px){
+    #section2{
+        margin-top: 0px;
+    } 
+    
+}
+
+#section2 .svgImg{
+    width: 75px;
+    height: 75px;
+    fill: white;
+}
+
+#section2 p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+   
+}
+
+#section2 h1{
+    color: #d90429;
+}
+
+#section3 .svgImg{
+    width: 75px;
+    height: 75px;
+    fill: white;
+}
+
+#section3 p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+   
+}
+
+#section3 h1{
+    color: #d90429;
+}
+
+#section4 .svgImg{
+    width: 75px;
+    height: 75px;
+    fill: white;
+}
+
+#section4 p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+   
+}
+
+#section4 h1{
+    color: #d90429;
+}
+
